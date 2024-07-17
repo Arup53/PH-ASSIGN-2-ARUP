@@ -4,6 +4,17 @@
     font-family: "Inter", sans-serif;
     font-size: 1rem;
   }
+
+@font-face {
+    font-family: 'Miama';
+    src: url("../font/Miama.otf") format('truetype');
+}
+  .italic {
+    font-family: 'Miama', sans-serif;
+    font-size: 4rem;
+    line-height: normal;
+    font-weight: 400;
+  }
 /* shared styles */
 
 *{
@@ -12,12 +23,43 @@
 }
 
 .maxm-width {
-    max-width: 90%;
+    max-width: 80%;
     margin: 1.25rem auto;
+}
+
+.txt-white {
+    color:rgb(255, 255, 255)
 }
 
 body {
     background-color: rgb(0, 0, 0);
+    
+}
+
+.btn-primary {
+    border-radius: 1.25rem;
+    width: 10rem;
+    border: 1px solid rgb(230, 83, 60);
+    background-color: rgb(230, 83, 60);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: .75rem;
+    font-weight: 600;
+    padding: .625rem;
+    margin-right: .625rem;
+}
+
+.btn-secondary {
+    border-radius: 1.25rem;
+    width: 10rem;
+    border:  1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: .75rem;
+    font-weight: 600;
+    padding: .625rem;
+    
 }
 
 
@@ -65,4 +107,109 @@ font-weight: 400;
     color: white;
     display: none;
 
+}
+
+
+/* banner styling */
+
+.banner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+   
+}
+
+.banner-title-container {
+    width: auto;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 3rem;
+}
+
+.banner-info {
+    font-size: .75rem;
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 3rem;
+}
+
+.banner-right-side-content {
+    
+     width: auto;
+    position: relative;
+
+}
+.card-1 {
+    position: absolute;
+    width: 10rem;
+    top: 72%;
+    left: -20%;
+    border: 1px solid rgba(128, 74, 74, 0.1);
+    border-radius: .75rem;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    
+    padding: 1.25rem;
+    display: flex;
+}
+
+.circle { 
+   width: 1.5rem;
+   height: 1.5rem;
+   border-radius: 50%;
+   border: none;
+   background-color:  rgb(230, 83, 60);
+   margin: 5px;
+   
+}
+.circle>i{
+    color: white;
+}
+.circle{
+    text-align: center;
+}
+.card-1-title {
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: left;
+}
+
+.card-1-info {
+   font-size: .75rem;
+   font-weight: 200;
+   text-align: left;
+   color: rgba(239, 237, 232, 0.65);
+}
+
+.card-2 {
+    position: absolute;
+    width: 10rem;
+    top: 20%;
+    right: -10%;
+    border: 1px solid rgba(128, 74, 74, 0.1);
+    border-radius: .75rem;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    
+    padding: 1.25rem;
+    
+}
+
+.card-2>h5 {
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: left;
+    margin: .3rem;
+    text-align: left;
+}
+
+.card-2>p{
+    font-size: .75rem;
+   font-weight: 200;
+   text-align: left;
+   color: rgba(239, 237, 232, 0.65);
 }

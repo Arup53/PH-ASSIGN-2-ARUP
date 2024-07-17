@@ -7,6 +7,42 @@
     .ham-burger{
         display: block;
     }
+   
 
+    /* banner sectiom */
+   
+    .banner {
+        flex-direction: column;
+    }
+   
+    .banner-title,.italic{
+        font-size: 3rem;
+        
+    }
+
+    
+
+
+   .btn-primary,.btn-secondary {
+    width: 8rem;
+   }
+
+   .card-1 {
+    width: auto;
+    top: 50%;
+    left: 5%;
+    
+    padding: .625rem;
+    
+   }
+
+
+    .card-2{
+        width: auto;
+        top: 10%;
+        right: 10%;
+        padding: .3125rem;
+    }
+    
     
 }
