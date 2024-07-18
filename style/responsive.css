@@ -93,5 +93,26 @@
     .input-container{
         justify-content: center;
     }
+
+
+    /* teams section */
+    .team{
+        text-align: center;
+        padding: 5px;
+    }
+
+    .team-img-container-box {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        
+        gap: 1rem;
     
 }
+.trainer-img{
+    width: 100%;
+    }
+
+}
+
+ 

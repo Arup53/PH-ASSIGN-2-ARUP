@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 .inter-font {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
   }
 
-@font-face {
-    font-family: 'Miama';
-    src: url("../font/Miama.otf") format('truetype');
-}
+
   .italic {
     font-family: 'Miama', sans-serif;
     font-size: 4rem;
@@ -421,3 +419,64 @@ font-weight: 400;
 }
 
 
+/* teams style */
+
+.team{
+    text-align: center;
+    padding: 3.125rem;
+}
+
+.team-title{
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.team-info{
+    font-size: .75rem;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+
+.team-img-container-box {
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     padding: 1.25rem;
+     gap: 1.25rem;
+}
+
+
+.trainer-img{
+    width: 100%;
+    height:15.625rem;
+}
+
+.trainer-img>img{
+    border-radius: 1rem;
+    width: 100%;
+  height: 100%;
+    border: none;
+}
+
+.img-card{
+    position: relative;
+}
+
+.position-div{
+  position: absolute;
+  text-align: left;
+  top: 80%;
+  left: 5%;
+}
+
+.trainer-name{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.trainer-tag{
+    font-size: .75rem;
+    font-weight: 400;
+}
