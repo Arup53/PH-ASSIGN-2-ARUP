@@ -35,6 +35,11 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
+.bg-light-gray{
+    background: rgba(34, 34, 34, 0.815);
+}
+
+
 body {
     background-color: rgb(0, 0, 0);
     
@@ -303,3 +308,116 @@ font-weight: 400;
     border-radius: 1rem;
     border: none;
 }
+
+/* BMI HEADING SECTION */
+
+.bmi-starting-container{
+    text-align: center;
+}
+
+.bmi-starting-title {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+.bmi-starting-info{
+    font-size: .75rem;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+
+
+/* BMI  STYLES*/
+.bmi{
+    padding: 3.125rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3.125rem;
+}
+
+.table-container{
+    width: 30%;
+}
+
+
+
+
+.table-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 2rem 0;
+}
+
+
+.table { 
+    border: none;
+    text-align: left;
+}
+
+.table tr{
+   padding:  0.625rem;
+}
+
+.table td {
+    border: 1px solid rgba(255, 255, 255,0.1);
+}
+
+.column-title{
+    font-size: 0.875rem;
+    padding: 0.625rem;
+}
+
+.column-data{
+    font-size: .75rem;
+    padding:  0.625rem;
+}
+
+.calculate-container {
+    
+    padding: 0.625rem;
+}
+
+.calculate-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 1rem 0;
+}
+
+.calculate-info{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .75rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+
+
+.input-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: .625rem;
+}
+
+.span-column{
+    grid-column: span 2;
+}
+.input-container input,select {  
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .75rem;
+    font-weight: 400;
+    background-color:  rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    height: 3rem;
+}
+
+.input-container input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .75rem;
+    font-weight: 400;
+}
+
+

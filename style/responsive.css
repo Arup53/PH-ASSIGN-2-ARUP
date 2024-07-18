@@ -78,5 +78,20 @@
     .run-img-container img {
         width: 100%;
     }
+
+
+
+    /* bmi section */
+    .bmi {
+        flex-direction: column;
+    }
+    .table-container{
+        width: 100%;
+    }
+    
+    
+    .input-container{
+        justify-content: center;
+    }
     
 }
