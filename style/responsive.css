@@ -1,5 +1,10 @@
 @media screen and (max-width:576px) {
+     
+    /* shared style*/
 
+    .maxm-width{
+        max-width: 90%;
+    }
     /* header section */
     .nav-item {
         display: none;
@@ -42,6 +47,19 @@
         top: 10%;
         right: 10%;
         padding: .3125rem;
+    }
+
+
+
+    /* habbit section */
+    .habbit{
+        padding: 0;
+    }
+    .habbit-img-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+        
     }
     
     
