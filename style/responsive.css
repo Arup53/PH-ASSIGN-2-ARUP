@@ -62,5 +62,21 @@
         
     }
     
+
+    .run {
+        padding: 1.25rem;
+        flex-direction: column;
+    }
+    
+    .run-title-container{
+        text-align: center;
+    }
+    
+    .run-img-container{
+        max-width: 100%;
+    }
+    .run-img-container img {
+        width: 100%;
+    }
     
 }
