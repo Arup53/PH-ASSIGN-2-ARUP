@@ -69,6 +69,12 @@ body {
     
 }
 
+.btn-width {
+    width: 8rem;
+    cursor: pointer;
+}
+
+
 
 /* header&banner container */
 .background-gradient {
@@ -479,4 +485,115 @@ font-weight: 400;
 .trainer-tag{
     font-size: .75rem;
     font-weight: 400;
+}
+
+
+/* Unique section */
+
+.unique {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.unique-section-title {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.unique-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.txt-small {
+    font-size: .75rem;
+    font-weight: 400;
+    
+}
+
+.txt-big {
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: normal;
+    
+}
+
+.unique-card-title{
+    padding: .75rem 0;
+}
+
+.unique-card-item{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.unique-card-item>p{
+    padding-bottom: 0.5rem;
+}
+
+.vertical-line{
+    border-left: 2px solid white;
+    height: 100px;
+    margin: 0 10px;
+    transform: translate(0,40%);
+}
+
+/* footer styling */
+ 
+
+
+.footer-content{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+
+}
+
+.footer-title{
+    color: rgb(230, 83, 60);
+ font-size: 3rem;
+ font-style: italic;
+ font-weight: 800;
+ margin-bottom: 1.25rem;
+}
+
+.footer-title-info{
+    font-size: .75rem;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+.footer-card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: .625rem;
+}
+
+.footer-card-info {
+    font-size: .875rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+
+
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.line {
+    width: 70%;
+    margin-bottom: 1.25rem;
+}
+
+.footer-bottom p {
+   font-size: 1rem;
+   margin-bottom: 1.25rem;
 }

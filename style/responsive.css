@@ -113,6 +113,28 @@
     width: 100%;
     }
 
+
+/* Unique section */
+.unique-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+.vertical-line{
+    display: none;
+}
+
+
+/* footer section */
+.footer-content{
+    grid-template-columns: repeat(1,1fr);
+
+}
+
 }
 
  
