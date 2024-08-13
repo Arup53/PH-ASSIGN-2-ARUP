@@ -552,8 +552,10 @@ font-weight: 400;
 .footer-content{
     padding: 50px;
     display: grid;
+    justify-content: center;
+    align-items: center;
     grid-template-columns: repeat(3,1fr);
-    gap: 50px;
+    gap: 100px;
 
 }
 
@@ -594,8 +596,9 @@ font-weight: 400;
 }
 
 .line {
-    width: 70%;
+    width: 75%;
     margin-bottom: 1.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-bottom p {
