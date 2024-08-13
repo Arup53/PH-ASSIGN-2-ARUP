@@ -15,6 +15,7 @@
    
 
     /* banner sectiom */
+
    
     .banner {
         flex-direction: column;
@@ -31,6 +32,7 @@
    .btn-primary,.btn-secondary {
     width: 8rem;
    }
+   
 
    .card-1 {
     width: auto;
