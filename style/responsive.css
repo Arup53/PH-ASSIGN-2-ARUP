@@ -140,3 +140,35 @@
 
 }
 
+
+@media screen and (min-width:577px) and  (max-width:992px) {
+
+    
+    .maxm-width{
+        max-width: 100%;
+    }
+
+    .banner {
+        padding: 50px;
+        flex-direction: column;
+        gap: 2rem;
+     }
+
+     .habbit-img-container{
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+
+    .bmi-starting-container{
+        text-align: left;
+        padding: 10px;
+    }
+
+    .bmi{
+       flex-direction: column;
+    }
+
+    .responsive-padding{
+        padding: 10px;
+    }
+}

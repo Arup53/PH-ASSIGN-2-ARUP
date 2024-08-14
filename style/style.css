@@ -1,609 +1,608 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama');
 
-@media screen and (min-width:993px) {
-    .inter-font {
-        font-family: "Inter", sans-serif;
-        font-size: 1rem;
-      }
-    
-    
-      .italic {
-        font-family: 'Miama', sans-serif;
-        font-size: 4rem;
-        line-height: normal;
-        font-weight: 400;
-      }
-    /* shared styles */
-    
-    *{
-        margin:0;
-        box-sizing: border-box;
-    }
-    
-    .maxm-width {
-        max-width: 80%;
-        margin: 1.25rem auto;
-    }
-    
-    .txt-white {
-        color:rgb(255, 255, 255)
-    }
-    
-    .txt-light-gray{
-        color: rgba(255, 255, 255, 0.5);
-    }
-    
-    .bg-light-gray{
-        background: rgba(34, 34, 34, 0.815);
-    }
-    
-    
-    body {
-        background-color: rgb(0, 0, 0);
-        
-    }
-    
-    .btn-primary {
-        border-radius: 1.25rem;
-        width: 10rem;
-        border: 1px solid rgb(230, 83, 60);
-        background-color: rgb(230, 83, 60);
-        text-align: center;
-        color: rgb(255, 255, 255);
-        font-size: .75rem;
-        font-weight: 600;
-        padding: .625rem;
-        margin-right: .625rem;
-    }
-    
-    .btn-secondary {
-        border-radius: 1.25rem;
-        width: 10rem;
-        border:  1px solid rgb(255, 255, 255);
-        background-color: transparent;
-        text-align: center;
-        color: rgb(255, 255, 255);
-        font-size: .75rem;
-        font-weight: 600;
-        padding: .625rem;
-        
-    }
-    
-    .btn-width {
-        width: 8rem;
-        cursor: pointer;
-    }
-    
-    
-    
-    /* header&banner container */
-    .background-gradient {
-        background-image: linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(128, 128, 128, .375), rgba(0, 0, 0, 1))
-    }
-    
-    /* header style */
-    
-    .header-container{
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .logo{
-        color: rgb(230, 83, 60);
-    font-size: 2rem;
-    font-style: italic;
-    font-weight: 800;
-    }
-    
-    .nav-links-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2.5rem;
-        border-radius: 2rem;
-        border: .0625rem solid rgba(167, 108, 108, 0.1);
-        padding-right: 10px;
-    }
-    
-    .nav-item {
-    color: white;
-    cursor: pointer;
+
+.inter-font {
+    font-family: "Inter", sans-serif;
     font-size: 1rem;
+  }
+
+
+  .italic {
+    font-family: 'Miama', sans-serif;
+    font-size: 4rem;
+    line-height: normal;
     font-weight: 400;
-    }
-    
-    .home-bg{
-        border-radius: 1.25rem;
-        border: none;
-        padding: 8px 20px 8px 20px;
-        background-color: rgb(230, 83, 60);
-    }
-    
-    .ham-burger{
-        color: white;
-        display: none;
-    
-    }
-    
-    
-    /* banner styling */
-    
-    .banner {
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       
-       
-    }
-    
-    .banner-title-container {
-        width: auto;
-    }
-    
-    .banner-title {
-        font-size: 4rem;
-        font-weight: 900;
-        line-height: normal;
-        margin-bottom: 3rem;
-    }
-    
-    .banner-info {
-        font-size: .75rem;
-        color:rgba(255, 255, 255, 0.5);
-        margin-bottom: 3rem;
-    }
-    
-    .banner-right-side-content {
-        
-         width: auto;
-        position: relative;
-    
-    }
-    
-    .card-1 {
-        position: absolute;
-        width: 10rem;
-        top: 72%;
-        left: -20%;
-        border: 1px solid rgba(128, 74, 74, 0.1);
-        border-radius: .75rem;
-        backdrop-filter: blur(20px);
-        background: rgba(48, 48, 48, 0.54);
-        
-        padding: 1.25rem;
-        display: flex;
-    }
-    
-    .circle { 
-       width: 1.5rem;
-       height: 1.5rem;
-       border-radius: 50%;
-       border: none;
-       background-color:  rgb(230, 83, 60);
-       margin: 5px;
-       
-    }
-    .circle>i{
-        color: white;
-        transform: translateY(8%);
-    }
-    .circle{
-        text-align: center;
-    }
-    .card-1-title {
-        font-size: 1rem;
-        font-weight: 900;
-        text-align: left;
-    }
-    
-    .card-1-info {
-       font-size: .75rem;
-       font-weight: 200;
-       text-align: left;
-       color: rgba(239, 237, 232, 0.65);
-    }
-    
-    .card-2 {
-        position: absolute;
-        width: 10rem;
-        top: 20%;
-        right: -10%;
-        border: 1px solid rgba(128, 74, 74, 0.1);
-        border-radius: .75rem;
-        backdrop-filter: blur(20px);
-        background: rgba(48, 48, 48, 0.54);
-        
-        padding: 1.25rem;
-        
-    }
-    
-    .card-2>h5 {
-        font-size: 1rem;
-        font-weight: 900;
-        text-align: left;
-        margin: .3rem;
-        text-align: left;
-    }
-    
-    .card-2>p{
-        font-size: .75rem;
-       font-weight: 200;
-       text-align: left;
-       color: rgba(239, 237, 232, 0.65);
-    }
-    
-    
-    /* habbit section style */
-    
-    .habbit {
-        text-align: center;
-        padding: 6.25rem;
-    }
-    
-    .habbit-img-container{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        gap: 1.25rem;
-        margin:3.125rem 0;
-        
-    }
-    
-    .habbit-titile{
-        font-size: 2rem;
-        font-weight: 900;
-        margin-bottom: .5rem;
-    }
-    
-    .habbit-info {
-        color: rgba(255, 255, 255, 0.5);
-        font-size: .75rem;
-        font-weight: 400;
-        margin-bottom: 5rem;
-    }
-    
-    .habbit-card-img>img{
-        border-radius: 50%;
-        border: none;
-    }
-    
-    
-    .habbit-card-title{
-        font-size: 1rem;
-        font-weight: 600;
-        margin: 1rem;
-    }
-    
-    .habbit-card-info{
-        font-size: .75rem;
-        font-weight: 400;
-        margin: 1rem;
-    }
-    
-    
-    /* run section style */
-    .run {
-        border-radius: 18px;
-        background: rgba(34, 34, 34, 0.815);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 50px;
-        gap: 1.25rem;
-    
-    }
-    
-    
-    
-    .run-title{
-        font-size: 2rem;
-        font-weight: 900;
-        line-height: normal;
-        margin-bottom: 2.5rem;
-    }
-    
-    .run-info {
-        color: rgba(255, 255, 255, 0.5);
-        font-size: .75rem;
-        font-weight: 400;
-        margin-bottom: 2.5rem;
-    }
-    
-    .run-img-container{
-        max-width: 40%;
-    }
-    
-    .run-img-container img {
-        width: 100%;
-        border-radius: 1rem;
-        border: none;
-    }
-    
-    /* BMI HEADING SECTION */
-    
-    .bmi-starting-container{
-        text-align: center;
-    }
-    
-    .bmi-starting-title {
-        font-size: 2rem;
-        font-weight: 900;
-        line-height: normal;
-        margin-bottom: 1rem;
-    }
-    .bmi-starting-info{
-        font-size: .75rem;
-        font-weight: 400;
-        margin-bottom: 2.5rem;
-    }
-    
-    
-    
-    /* BMI  STYLES*/
-    .bmi{
-        padding: 3.125rem;
-        display: flex;
-        justify-content: space-between;
-        gap: 3.125rem;
-    }
-    
-    .table-container{
-        width: 30%;
-    }
-    
-    
-    
-    
-    .table-title{
-        font-size: 1.5rem;
-        font-weight: 900;
-        margin: 2rem 0;
-    }
-    
-    
-    .table { 
-        border: none;
-        text-align: left;
-    }
-    
-    .table tr{
-       padding:  0.625rem;
-    }
-    
-    .table td {
-        border: 1px solid rgba(255, 255, 255,0.1);
-    }
-    
-    .column-title{
-        font-size: 0.875rem;
-        padding: 0.625rem;
-    }
-    
-    .column-data{
-        font-size: .75rem;
-        padding:  0.625rem;
-    }
-    
-    .calculate-container {
-        
-        padding: 0.625rem;
-    }
-    
-    .calculate-title{
-        font-size: 1.5rem;
-        font-weight: 900;
-        margin: 1rem 0;
-    }
-    
-    .calculate-info{
-        color: rgba(255, 255, 255, 0.5);
-        font-size: .75rem;
-        font-weight: 400;
-        margin-bottom: 2rem;
-    }
-    
-    
-    
-    .input-container{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(3,1fr);
-        gap: .625rem;
-    }
-    
-    .span-column{
-        grid-column: span 2;
-    }
-    .input-container input,select {  
-        color: rgba(255, 255, 255, 0.5);
-        font-size: .75rem;
-        font-weight: 400;
-        background-color:  rgba(255, 255, 255, 0.1);
-        border-radius: 8px;
-        border: none;
-        height: 3rem;
-    }
-    
-    .input-container input::placeholder{
-        color: rgba(255, 255, 255, 0.5);
-        font-size: .75rem;
-        font-weight: 400;
-    }
-    
-    
-    /* teams style */
-    
-    .team{
-        text-align: center;
-        padding: 3.125rem;
-    }
-    
-    .team-title{
-        font-size: 2rem;
-        font-weight: 900;
-        line-height: normal;
-        margin-bottom: 1rem;
-    }
-    
-    .team-info{
-        font-size: .75rem;
-        font-weight: 400;
-        margin-bottom: 2.5rem;
-    }
-    
-    
-    .team-img-container-box {
-         display: grid;
-         grid-template-columns: repeat(3,1fr);
-         padding: 1.25rem;
-         gap: 1.25rem;
-    }
-    
-    
-    .trainer-img{
-        width: 100%;
-        height:15.625rem;
-    }
-    
-    .trainer-img>img{
-        border-radius: 1rem;
-        width: 100%;
-      height: 100%;
-        border: none;
-    }
-    
-    .img-card{
-        position: relative;
-    }
-    
-    .position-div{
-      position: absolute;
-      text-align: left;
-      top: 80%;
-      left: 5%;
-    }
-    
-    .trainer-name{
-        font-size: 1rem;
-        font-weight: 600;
-    }
-    
-    .trainer-tag{
-        font-size: .75rem;
-        font-weight: 400;
-    }
-    
-    
-    /* Unique section */
-    
-    .unique {
-        text-align: center;
-        margin-bottom: 4rem;
-    }
-    
-    .unique-section-title {
-        font-size: 2rem;
-        font-weight: 900;
-        line-height: normal;
-        margin-bottom: 1rem;
-    }
-    
-    .unique-card-container {
-        display: flex;
-        justify-content: center;
-        gap: 3rem;
-    }
-    .txt-small {
-        font-size: .75rem;
-        font-weight: 400;
-        
-    }
-    
-    .txt-big {
-        font-size: 1.5rem;
-        font-weight: 900;
-        line-height: normal;
-        
-    }
-    
-    .unique-card-title{
-        padding: .75rem 0;
-    }
-    
-    .unique-card-item{
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    
-    .unique-card-item>p{
-        padding-bottom: 0.5rem;
-    }
-    
-    .vertical-line{
-        border-left: 2px solid white;
-        height: 100px;
-        margin: 0 10px;
-        transform: translate(0,40%);
-    }
-    
-    /* footer styling */
-     
-    
-    
-    .footer-content{
-        padding: 50px;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        grid-template-columns: repeat(3,1fr);
-        gap: 100px;
-    
-    }
-    
-    .footer-title{
-        color: rgb(230, 83, 60);
-     font-size: 3rem;
-     font-style: italic;
-     font-weight: 800;
-     margin-bottom: 1.25rem;
-    }
-    
-    .footer-title-info{
-        font-size: .75rem;
-        font-weight: 400;
-        margin-bottom: 2.5rem;
-    }
-    
-    .footer-card-title{
-        font-size: 1.5rem;
-        font-weight: 700;
-        margin-bottom: .625rem;
-    }
-    
-    .footer-card-info {
-        font-size: .875rem;
-        font-weight: 400;
-        margin-bottom: .5rem;
-    }
-    
-    
-    
-    .footer-bottom{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    }
-    
-    .line {
-        width: 75%;
-        margin-bottom: 1.25rem;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-    }
-    
-    .footer-bottom p {
-       font-size: 1rem;
-       margin-bottom: 1.25rem;
-    }
+  }
+/* shared styles */
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+.maxm-width {
+    max-width: 80%;
+    margin: 1.25rem auto;
+}
+
+.txt-white {
+    color:rgb(255, 255, 255)
+}
+
+.txt-light-gray{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-light-gray{
+    background: rgba(34, 34, 34, 0.815);
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.btn-primary {
+    border-radius: 1.25rem;
+    width: 10rem;
+    border: 1px solid rgb(230, 83, 60);
+    background-color: rgb(230, 83, 60);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: .75rem;
+    font-weight: 600;
+    padding: .625rem;
+    margin-right: .625rem;
+}
+
+.btn-secondary {
+    border-radius: 1.25rem;
+    width: 10rem;
+    border:  1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: .75rem;
+    font-weight: 600;
+    padding: .625rem;
+    
+}
+
+.btn-width {
+    width: 8rem;
+    cursor: pointer;
+}
+
+
+
+/* header&banner container */
+.background-gradient {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(128, 128, 128, .375), rgba(0, 0, 0, 1))
+}
+
+/* header style */
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    color: rgb(230, 83, 60);
+font-size: 2rem;
+font-style: italic;
+font-weight: 800;
+}
+
+.nav-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    border-radius: 2rem;
+    border: .0625rem solid rgba(167, 108, 108, 0.1);
+    padding-right: 10px;
+}
+
+.nav-item {
+color: white;
+cursor: pointer;
+font-size: 1rem;
+font-weight: 400;
+}
+
+.home-bg{
+    border-radius: 1.25rem;
+    border: none;
+    padding: 8px 20px 8px 20px;
+    background-color: rgb(230, 83, 60);
+}
+
+.ham-burger{
+    color: white;
+    display: none;
+
+}
+
+
+/* banner styling */
+
+.banner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+   
+}
+
+.banner-title-container {
+    width: auto;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 3rem;
+}
+
+.banner-info {
+    font-size: .75rem;
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 3rem;
+}
+
+.banner-right-side-content {
+    
+     width: auto;
+    position: relative;
+
+}
+
+.card-1 {
+    position: absolute;
+    width: 10rem;
+    top: 72%;
+    left: -20%;
+    border: 1px solid rgba(128, 74, 74, 0.1);
+    border-radius: .75rem;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    
+    padding: 1.25rem;
+    display: flex;
+}
+
+.circle { 
+   width: 1.5rem;
+   height: 1.5rem;
+   border-radius: 50%;
+   border: none;
+   background-color:  rgb(230, 83, 60);
+   margin: 5px;
+   
+}
+.circle>i{
+    color: white;
+    transform: translateY(8%);
+}
+.circle{
+    text-align: center;
+}
+.card-1-title {
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: left;
+}
+
+.card-1-info {
+   font-size: .75rem;
+   font-weight: 200;
+   text-align: left;
+   color: rgba(239, 237, 232, 0.65);
+}
+
+.card-2 {
+    position: absolute;
+    width: 10rem;
+    top: 20%;
+    right: -10%;
+    border: 1px solid rgba(128, 74, 74, 0.1);
+    border-radius: .75rem;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    
+    padding: 1.25rem;
+    
+}
+
+.card-2>h5 {
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: left;
+    margin: .3rem;
+    text-align: left;
+}
+
+.card-2>p{
+    font-size: .75rem;
+   font-weight: 200;
+   text-align: left;
+   color: rgba(239, 237, 232, 0.65);
+}
+
+
+/* habbit section style */
+
+.habbit {
+    text-align: center;
+    padding: 6.25rem;
+}
+
+.habbit-img-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.25rem;
+    margin:3.125rem 0;
+    
+}
+
+.habbit-titile{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: .5rem;
+}
+
+.habbit-info {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .75rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+
+.habbit-card-img>img{
+    border-radius: 50%;
+    border: none;
+}
+
+
+.habbit-card-title{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+
+.habbit-card-info{
+    font-size: .75rem;
+    font-weight: 400;
+    margin: 1rem;
+}
+
+
+/* run section style */
+.run {
+    border-radius: 18px;
+    background: rgba(34, 34, 34, 0.815);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 1.25rem;
+
+}
+
+
+
+.run-title{
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 2.5rem;
+}
+
+.run-info {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .75rem;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+.run-img-container{
+    max-width: 40%;
+}
+
+.run-img-container img {
+    width: 100%;
+    border-radius: 1rem;
+    border: none;
+}
+
+/* BMI HEADING SECTION */
+
+.bmi-starting-container{
+    text-align: center;
+}
+
+.bmi-starting-title {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+.bmi-starting-info{
+    font-size: .75rem;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+
+
+/* BMI  STYLES*/
+.bmi{
+    padding: 3.125rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3.125rem;
+}
+
+.table-container{
+    width: 30%;
+}
+
+
+
+
+.table-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 2rem 0;
+}
+
+
+.table { 
+    border: none;
+    text-align: left;
+}
+
+.table tr{
+   padding:  0.625rem;
+}
+
+.table td {
+    border: 1px solid rgba(255, 255, 255,0.1);
+}
+
+.column-title{
+    font-size: 0.875rem;
+    padding: 0.625rem;
+}
+
+.column-data{
+    font-size: .75rem;
+    padding:  0.625rem;
+}
+
+.calculate-container {
+    
+    padding: 0.625rem;
+}
+
+.calculate-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 1rem 0;
+}
+
+.calculate-info{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .75rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+
+
+.input-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: .625rem;
+}
+
+.span-column{
+    grid-column: span 2;
+}
+.input-container input,select {  
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .75rem;
+    font-weight: 400;
+    background-color:  rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    height: 3rem;
+}
+
+.input-container input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .75rem;
+    font-weight: 400;
+}
+
+
+/* teams style */
+
+.team{
+    text-align: center;
+    padding: 3.125rem;
+}
+
+.team-title{
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.team-info{
+    font-size: .75rem;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+
+.team-img-container-box {
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     padding: 1.25rem;
+     gap: 1.25rem;
+}
+
+
+.trainer-img{
+    width: 100%;
+    height:15.625rem;
+}
+
+.trainer-img>img{
+    border-radius: 1rem;
+    width: 100%;
+  height: 100%;
+    border: none;
+}
+
+.img-card{
+    position: relative;
+}
+
+.position-div{
+  position: absolute;
+  text-align: left;
+  top: 80%;
+  left: 5%;
+}
+
+.trainer-name{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.trainer-tag{
+    font-size: .75rem;
+    font-weight: 400;
+}
+
+
+/* Unique section */
+
+.unique {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.unique-section-title {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.unique-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.txt-small {
+    font-size: .75rem;
+    font-weight: 400;
+    
+}
+
+.txt-big {
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: normal;
+    
+}
+
+.unique-card-title{
+    padding: .75rem 0;
+}
+
+.unique-card-item{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.unique-card-item>p{
+    padding-bottom: 0.5rem;
+}
+
+.vertical-line{
+    border-left: 2px solid white;
+    height: 100px;
+    margin: 0 10px;
+    transform: translate(0,40%);
+}
+
+/* footer styling */
+ 
+
+
+.footer-content{
+    padding: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+
+}
+
+.footer-title{
+    color: rgb(230, 83, 60);
+ font-size: 3rem;
+ font-style: italic;
+ font-weight: 800;
+ margin-bottom: 1.25rem;
+}
+
+.footer-title-info{
+    font-size: .75rem;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+.footer-card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: .625rem;
+}
+
+.footer-card-info {
+    font-size: .875rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+
+
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.line {
+    width: 75%;
+    margin-bottom: 1.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-bottom p {
+   font-size: 1rem;
+   margin-bottom: 1.25rem;
 }
